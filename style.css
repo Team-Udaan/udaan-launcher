@@ -1,69 +1,36 @@
 body {
-    margin: 0;
-    padding: 0;
-    /*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
-    background: #333;
-    background-attachment: fixed;
-    background-size: cover;
+  margin: 0;
+  padding: 0;
+  background: #333 fixed;
+  background-size: cover;
 }
 
-.logo {
-    width: 100%;
+.udaan-logo {
+  max-width: 45vw;
+  height: 45vh;
+  display: block;
+  margin: 10vh auto 0;
 }
 
-.logo img {
-    margin: 0 auto;
-    display: block;
-}
-
-/* The only rule that matters */
 #video-background {
-    /*  making the video fullscreen  */
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-}
-.social{
-    margin: 0 10px 0 10px;
-}
-/* These just style the content */
-article {
-    /*  just a fancy border  */
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border: 10px solid rgba(255, 255, 255, 0.7);
-    margin: 10px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
 }
 
-h1 {
-    position: absolute;
-    top: 60%;
-    width: 100%;
-    font-size: 36px;
-    letter-spacing: 3px;
-    color: #fff;
-    font-family: Oswald, sans-serif;
-    text-align: center;
+.social-media {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  text-align: center;
 }
 
-h1 span {
-    font-family: sans-serif;
-    letter-spacing: 0;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
+.social-media img {
+  margin: 0 10px 0 10px;
 }
 
-h1 span a {
-    color: #fff;
-}
