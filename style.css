@@ -1,33 +1,39 @@
 @font-face {
-  font-family: 'Roboto';
-  src: url('assets/Roboto-Regular.ttf');
+    font-family: 'Roboto';
+    src: url('assets/Roboto-Regular.ttf');
 }
+
 body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  background: url("assets/ezgif.com-video-to-gif (2).gif") no-repeat center;
-  background-size: cover;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url("assets/ezgif.com-video-to-gif (2).gif") no-repeat center;
+    background-size: cover;
 }
+
 .udaan-logo {
-  max-width: 45vw;
-  height: 45vh;
-  display: block;
-  margin: 2vh auto 0;
+    max-width: 45vw;
+    height: 45vh;
+    display: block;
+    margin: 2vh auto 0;
 }
+
 .social-media {
-  position: absolute;
-  top: 60%;
-  width: 100%;
-  text-align: center;
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
 }
+
 .social-media img {
-  margin: 0 10px 0 10px;
+    margin: 0 10px 0 10px;
 }
-#dates{
-  position: relative;
-  top : -70px;
-  text-align: center;
-  color: #fff;
-  font-family: Roboto;
+
+#dates {
+    position: relative;
+    top: -70px;
+    text-align: center;
+    color: #fff;
+    font-family: Roboto;
 }
